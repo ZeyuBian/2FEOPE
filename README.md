@@ -14,7 +14,7 @@ We next illustrate how to reproduce these tables.
 Table 1 in the main and Table 3 in the supplementary article (D4RL): for example, to obtain the result of P1 for Maze-2D in Table 1, simply open P1.R file in the D4RL/Maze folder, then run the code. Similarly, to obtain the results of other methods, please open the corresponding R files and run the code therein.
 
 
-Table 3 (sensitivity analysis) in the main: for example, to obtain the result of P1 in the table. Simply open P1.R file in the \textbf{\textit{Sensitivity}} folder, then run the code. Similarly, to obtain the results of other methods, please open the corresponding R files and run the code therein.
+Table 3 (sensitivity analysis) in the main: for example, to obtain the result of P1 in the table. Simply open P1.R file in the Sensitivity folder, then run the code. Similarly, to obtain the results of other methods, please open the corresponding R files and run the code therein.
     
 
 Mixture folder for Table 4 in the supplementary article can be reproduced analogously, we omit the details to save space.
