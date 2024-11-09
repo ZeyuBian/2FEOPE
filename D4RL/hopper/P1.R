@@ -52,10 +52,10 @@ for (z in 1:20) {
   m=lm(c(r)~cbind(x,x^2,a,a^2,D))
   par=coef(m)
   
-  q=cbind(a,a^2);q[,(1:dima)]=0;q[,-(1:dima)]=2/3
+  q=cbind(a,a^2);q[,(1:dima)]=0;q[,-(1:dima)]=2/3 * (1/2)^dima
   
   res=matrix(nrow=n,ncol=t0)
-  r=cbind(1,x,x^2,q,D)%*%par* (1/2)^dima
+  r=cbind(1,x,x^2,q,D)%*%par
   r=matrix(r,nrow = n)
   res[,1]=r[,1]
   
@@ -89,10 +89,10 @@ for (z in 1:20) {
     m=lm(c(r)~cbind(x,x^2,a,a^2,D))
     par=coef(m)
     
-    q=cbind(a,a^2);q[,(1:dima)]=0;q[,-(1:dima)]=2/3
+    q=cbind(a,a^2);q[,(1:dima)]=0;q[,-(1:dima)]=2/3 * (1/2)^dima
     
     
-    r=cbind(1,x,x^2,q,D)%*%par*(1/2)^dima
+    r=cbind(1,x,x^2,q,D)%*%par
     r=matrix(r,nrow = n)
     res[,i]=r[,1]
   }
